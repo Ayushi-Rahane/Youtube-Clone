@@ -1,0 +1,266 @@
+.header-div{
+    background-color:white;
+    height:56px;
+    display:flex;
+    margin-top:0px;
+    justify-content:space-between;
+    padding-top:0px;
+    position:fixed;
+    z-index:1000;
+    top:0px;
+    right:0px;
+    left:0px;
+    border-bottom: 1px solid #cccccc;
+
+}
+
+.left-side{
+
+ display:flex;
+ justify-content:space-between;
+ width:162px;
+ align-items:center;
+}
+.hamburg-img{
+    width:24px;
+    margin:24px;
+    cursor:pointer;
+}
+
+.yt-logo-img{
+    width:90px;
+    height:20px;
+    cursor:pointer;
+}
+.middle-side{
+    flex:1;
+    margin-left:60px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+}
+
+.search-box{
+    flex:1;
+    height:37px;
+    max-width:358px;
+    padding-left:9px;
+    border:1px;
+    border-color: #cccccc;
+    box-shadow:inset 1px 1px 4px #e7e5e5; 
+    border-style:solid;
+    outline:none;
+    border-top-left-radius:2px;
+    border-bottom-left-radius:2px;
+}
+.search-box:focus{
+    border:1px solid rgb(98, 103, 241);
+  
+}
+.search-box::placeholder{
+    font-size:15px;
+   
+}
+.search-btn-div{
+    position:relative;
+}
+.search-btn{
+    height:40px;
+    width:64px;    
+    cursor:pointer;
+    margin-right:4px;
+    background-color:#f7f7f7;
+    border-top:1px solid #cccccc;
+    border-bottom:1px solid #cccccc;
+    border-right:1px solid #cccccc;
+    border-left:none;
+    border-top-right-radius:2px;
+    border-bottom-right-radius:2px;
+}
+
+.search-btn:hover{
+    background-color:#e0dbdb;
+}
+
+
+.search-btn-img{
+ width:24px;
+ height:24px;
+ vertical-align: middle;
+}
+.voice-search-btn{
+    position:relative;
+}
+
+.voice-search-btn{
+    height:40px;
+    width:40px;
+    border:none;    
+    background-color:#f7f7f7;
+    border-radius:77px;   
+    cursor:pointer;
+}
+
+.voice-search-btn-img{
+    width:24px;
+    height:24px;
+    vertical-align: middle;
+   
+}
+.right-side{
+    width:182px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+.myprofile-img{
+    cursor:pointer;
+    margin-right:14px;
+    width:32px;
+    height:32px;
+    border-radius:16px;
+}
+.icon{
+    width:24px;
+    height:24px;
+    position:relative;
+    cursor:pointer;
+}
+.notify-div{
+position:relative;
+}
+
+.notify-count{
+    position:absolute;
+    background-color:rgb(194, 18, 18);
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:9px;
+    text-align:center;
+    padding-right:2px;
+    padding-left:2px;
+    padding-top:2px;
+    padding-bottom:2px;
+
+    
+    height:10px;
+    top:-1px;
+    right:-2px;
+    width:10px;
+    border-radius:70px;
+
+
+}
+
+.search-btn-div .tooltip{
+    position:absolute;
+    background-color:rgb(93, 91, 91);
+    color:white;
+    font-size:12px;
+    border-radius:2px;
+    bottom:-52px;
+    font-family:roboto,ariel;
+    padding:10px;
+    opacity:0;
+    transition: opacity 0.15s;
+    pointer-events:none;
+}
+
+.search-btn-div:hover .tooltip{
+opacity:1;
+}
+
+
+.voice-search-btn-div .tooltip{
+    position:absolute;
+    background-color:rgb(93, 91, 91);
+    color:white;
+    font-size:12px;
+    border-radius:2px;
+    bottom:-44px;
+    font-family:roboto,ariel;
+    padding:10px;
+    opacity:0;
+    transition: opacity 0.15s;
+    pointer-events:none;
+}
+
+.voice-search-btn-div:hover .tooltip{
+    opacity:1;
+}
+
+.icon-div{
+    position:relative;
+
+}
+
+
+.icon-div .tooltip{
+    position:absolute;
+    background-color:rgb(93, 91, 91);
+    color:white;
+    font-size:12px;
+    border-radius:2px;
+    bottom:-44px;
+    right:-12px;
+    font-family:roboto,ariel;
+    padding:10px;
+    opacity:0;
+    transition: opacity 0.15s;
+    pointer-events:none;
+}
+
+.icon-div:hover .tooltip{
+    opacity:1;
+
+}
+
+.icon-div2{
+    
+    position:relative;
+}
+.icon-div2 .tooltip{
+    width:80px;
+    position:absolute;
+    background-color:rgb(93, 91, 91);
+    color:white;
+    font-size:12px;
+    border-radius:2px;
+    bottom:-44px;
+    right:-44px;
+    font-family:roboto,ariel;
+    padding:10px;
+    opacity:0;
+    transition: opacity 0.15s;
+    pointer-events:none;
+}
+
+.icon-div2:hover .tooltip{
+    opacity:1;
+}
+
+.notify-div{
+    position:relative;
+}
+
+.notify-div .tooltip{
+    width:70px;
+    position:absolute;
+    background-color:rgb(93, 91, 91);
+    color:white;
+    font-size:12px;
+    border-radius:2px;
+    bottom:-44px;
+    right:-44px;
+    font-family:roboto,ariel;
+    padding:10px;
+    opacity:0;
+    transition: opacity 0.15s;
+    pointer-events:none;
+}
+
+.notify-div:hover .tooltip{
+    opacity:1;
+}

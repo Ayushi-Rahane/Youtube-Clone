@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The div element</title>
+        <style>
+   .red-square{
+     background-color:red;
+     width:200px;
+     height:200px;
+    
+   }
+   .green-circle{
+    background-color:green;
+    width:200px;
+    height:200px;
+    border-radius:122px;
+    
+   }
+   .box1{
+       display:inline-block;
+       padding-right:80px;
+       padding-left:10px;
+       padding-bottom:15px;
+       border:solid;
+       border-width:thin;
+   }
+   .yes,.No{
+    cursor:pointer;
+   }
+   .d-div{
+    background-color:black;
+    font-family:arial;
+    padding-top:3px;
+    padding-left:10px;
+    display:inline-block;
+   }
+   .first{
+    color:white;
+    margin-bottom:2px;
+   }
+   .second{
+    margin-top:10px;
+    color:rgb(179, 167, 167);
+    width:369px;
+   }
+   .div_tweet{
+    box-shadow: 1px 1px 4px rgb(69, 67, 67);
+    border-radius:3px;
+    width:292px;
+    padding-top:6px;
+    padding-bottom:6px;
+    padding-left:8px;
+    padding-right:15px;
+   }
+   .img_twitter{
+        height:32px;
+        width:32px;
+        border-radius:233px;
+        object-position:center;
+        vertical-align:middle;
+       }
+       .tweet{
+           border:none;
+       }
+       .tweet_button{
+        background-color:rgb(6, 153, 227);
+         color:White;
+         border:none;
+         border-radius:50px;
+         padding-left:8px;
+         padding-right:8px;
+         padding-top:3px;
+         padding-bottom:4px;
+         margin-left:33px;
+         font-size:12px;
+         font-weight:bold;
+         text-align:center;
+         cursor:pointer;
+       }
+       .cat_div{
+        margin-left:52px;
+        margin-top:25px;
+        margin-bottom:26px;
+        font-family:arial;
+        box-shadow:1px 1px 6px rgb(154, 149, 149);
+        width:152px;
+        display:inline-block;
+
+       }
+       .img{
+        height:200px;
+        width:152px;
+        object-position:center;
+        object-fit:cover;
+        
+       }
+       .name{
+           margin-top:9px;
+           margin-bottom:0px;
+           margin-left:6px;
+           font-weight:bold;
+       }
+       .mutual{
+        margin-left:6px;
+        margin-top:3px;
+        color:gray;
+        font-size:13px;
+        margin-bottom:5px;
+       }
+       .add-friend{
+        margin-left:6px;
+        margin-bottom:6px;
+        margin-top:5px;  
+        background-color:rgb(103, 103, 230);
+        border:none;
+        color:white;
+        font-weight:bold;
+        border-radius:4px;
+        padding-top:5px;
+        padding-bottom:4px;
+        padding-left:15px;
+        padding-right:15px;
+
+       }
+       .google{
+        margin-top:15px;
+        text-align:center;
+       }
+       
+   .googlelogo{
+      
+      height:82px;
+      width:222px;
+      
+      /*margin-left:222px;*/
+      margin-top:12px;
+      /*display:block;*/  /*It is removed becoz text-align;center does not work when display:block is present. It causes elements to take up the entire line, so they can't be centered*/
+}
+   .google-search{
+    margin-top:12px;
+
+    width:322px;
+    padding-left:14px;
+    padding-right:115px;
+    padding-top:6px;
+    padding-bottom:6px;
+    border:none;
+    border-radius:23px;
+    box-shadow:2px 2px 4px rgb(148, 143, 143);
+
+   }
+   .b-first, .b-second{
+    margin-top:25px;
+    margin-left: 7px;
+    border:none;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:12px;
+    padding-right:12px;
+    cursor:pointer;
+   }
+
+        </style>
+    </head>
+    <body>
+        <p>a. Create a div and turn it into a red square</p>
+
+        <div class="red-square">
+        </div>
+
+        <br>
+        <p>Create a div and turn it into a green circle</p>
+        <div class="green-circle"></div>
+        <br>
+        <p>Recreate design by wrapping the elements in a div and adding a border.</p>
+        <div class="box1">
+            <p class="txt">
+                Satisfy with our services? 
+            </p>
+            <button class="yes">
+                Yes
+            </button>
+            <button class="No">
+                No
+            </button>
+        </div>
+
+        <br>
+        <p>recreate design using a div with 2 paragraphs inside</p>
+        <div class="d-div">
+            <p class="first">
+                Install YouTube Music
+            </p>
+            <p class="second">
+                Add Youtube Music to your desktop for quick and easy across
+            </p>
+
+        </div>
+        <br>
+        <p>give the shadow to this design</p>
+        <div class="div_tweet">
+            <img class="img_twitter" src="image.png">
+            <input class="tweet" type="text" placeholder="What's happening? ">
+            <button class="tweet_button">
+              Tweet
+            </button>
+          
+        </div>
+        <br>
+        <p>Recreate this image</p>
+        <div class="cat_div">
+            <img class="img" src="oliver.jpg">
+            <p class="name">Oliver</p>
+            <p class="mutual"> 2 mutual friends</p>
+            <button class="add-friend">
+                Add Friend
+            </button>
+        </div>
+        <div class="cat_div">
+            <img class="img" src="mimi.webp">
+            <p class="name">Mimi</p>
+            <p class="mutual"> 3 mutual friends</p>
+            <button class="add-friend">
+                Add Friend
+            </button>
+        </div>
+        <div class="cat_div">
+            <img class="img" src="OIP.jpg">
+            <p class="name">Tommy</p>
+            <p class="mutual"> 4 mutual friends</p>
+            <button class="add-friend">
+                Add Friend
+            </button>
+           
+        </div>
+        <br>
+        <pr> Recreate Google search in div</pr>
+       <div class="google">
+        <img src="googlelogo.jpg" class="googlelogo">
+
+        <input class="google-search" type="text" placeholder="Search Google or type a URL">
+        <br>
+        <button class="b-first">
+            Google Search
+        </button>
+        <button class="b-second">
+            I'm Feeling Lucky
+        </button>
+
+       </div>
+    </body>
+</html>

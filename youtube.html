@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" type="x-icon" href="icons/yt-icon.png">
+    <title>
+        YouTube clone
+    </title>
+</head>
+<link rel="stylesheet" href="styles/general.css">
+<link rel="stylesheet" href="styles/sidebar.css">
+<link rel="stylesheet" href="styles/header.css">
+<link rel="stylesheet" href="styles/video.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+<body>
+    <div class="header-div">
+    <div class="left-side"> 
+      <img class="hamburg-img" src="icons/hamburger-menu.svg"> 
+      <img class="yt-logo-img" src="icons/youtube-logo.svg">
+    </div>
+
+    <div class="middle-side">
+     
+        <input class="search-box" type="text" placeholder="Search">
+        <div class="search-btn-div">
+        <button class="search-btn"><img class="search-btn-img" src="icons/search.svg"></button>
+        <p class="tooltip">Search</p>
+</div>
+<div class="voice-search-btn-div">
+<button class="voice-search-btn"><img class="voice-search-btn-img" src="icons/voice-search-icon.svg"></button>
+<p class="tooltip">Voice Search</p>
+</div>
+    </div>
+
+    <div class="right-side">
+        <div class="icon-div">
+        <img class="icon" src="icons/upload.svg">
+        <p class="tooltip">Create</p>
+
+
+    </div>
+    <div class="icon-div2">
+        <img class="icon" src="icons/youtube-apps.svg">
+        <p class="tooltip">YouTube apps</p>
+    </div>
+        <div class="notify-div">
+        <img class="icon" id="notify-icon" src="icons/notifications.svg">
+        <div class="notify-count">3</div>
+        <p class="tooltip">Notifications</p>
+        </div>
+        <img class="myprofile-img" src="profile-img/myprofile.jpg">
+    </div>
+
+    </div>   
+    <div class="sidebar">
+    <div class="sidebar-icon-div" >
+        
+        <img class="sidebar-icon" src="icons/home.svg">
+        <p class="text-icon">
+            Home
+        </p>
+    </div>
+    <div class="sidebar-icon-div">
+        
+        <img class="sidebar-icon" src="icons/explore.svg">
+        <p class="text-icon">
+            Explore
+        </p>
+    </div>
+    <div class="sidebar-icon-div">
+        
+        <img class="sidebar-icon" src="icons/subscriptions.svg">
+        <p class="text-icon">
+            Subscriptions
+        </p>
+    </div>
+    <div class="sidebar-icon-div">
+        <img class="sidebar-icon" src="icons/originals.svg">
+        <p class="text-icon">
+            Originals
+        </p>
+    </div>
+    <div class="sidebar-icon-div">
+        
+    <img class="sidebar-icon" src="icons/youtube-music.svg">
+    <p class="text-icon">
+        Youtube Music    
+    </p>
+    </div>
+    <div class="sidebar-icon-div">
+        
+        <img class="sidebar-icon" src="icons/library.svg">
+        <p class="text-icon">
+            Library  
+        </p>
+        
+    </div>
+    </div>    
+    <div class="video-grid">
+        
+        <div class="video-preview">
+            <a href="https://youtu.be/n2RNcPRtAiY">
+            <div class="thumbnail-div">
+                    <img class="thumbnail-img" src="thumbnail/thumbnail-1.webp">
+                    <div class="time-span">
+                    14:20
+                    </div>
+                
+            </div>
+            <div class="video-info">
+                <div class="profile-div">
+
+                    <img class="profile-img" src="profile-img/channel-1.jpg">
+                </div>
+                <div class="description-div" >
+                    <div class="title-div" >
+                        <a href="https://youtu.be/8xsLE8uJC_g">
+                        <p class="title" >Force and Pressure in One Shot | Physics - Class 8th | Umang | Physics Wallah</p>
+                        </a>
+                    </div>
+                    <div class="author-div">
+                        <p class="author">Physics Wallah Foundation
+                    </p>
+                    </div>
+                    <div class="stats-div">
+                        <p class="stats">1M views · 1 year ago</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </a>
+
+        <div class="video-preview">
+            <a href="https://youtu.be/tBjThkHmlNg">
+            <div class="thumbnail-div">
+                <img class="thumbnail-img" src="thumbnail/thumbnail-2.webp">
+                <div class="time-span">
+                    8:22
+                </div>
+            </div>
+            <div class="video-info">
+                <div class="profile-div">
+                    <img class="profile-img" src="profile-img/channel-2.jpg">
+                </div>
+                <div class="description-div">
+                    <div class="title-div">
+                        <p class="title">Learn CSS Pseudo Classes in 4 Minutes - CSS Crash Course for Beginners - Part 11</p>
+                    </div>
+                    <div class="author-div">
+                        <p class="author">Web Content</p>
+                    </div>
+                    <div class="stats-div">
+                        <p class="stats">6 views · 2 days ago</p>
+                    </div>
+
+                </div>
+
+            </div>
+            </a>
+        </div>
+
+        <div class="video-preview">
+            <a href="https://youtu.be/p6Yw0Bx5dbw">
+            <div class="thumbnail-div">
+                <img class="thumbnail-img" src="thumbnail/thumbnail-3.webp">
+                <div class="time-span">
+                    9:13
+                    </div>
+            </div>
+            <div class="video-info">
+                <div class="profile-div">
+                    <img class="profile-img" src="profile-img/channel-3.jpg">
+                </div>
+                <div class="description-div">
+                    <div class="title-div">
+                        <p class="title">ChatGPT just leveled up big time...</p>
+                    </div>
+                    <div class="author-div">
+                        <p class="author">Fireship</p>
+                    </div>
+                    <div class="stats-div">
+                        <p class="stats">468K views · 16 hours ago</p>
+                    </div>
+
+                </div>
+
+            </div>
+            </a>
+        </div>
+        <div class="video-preview">
+            <a href="https://youtu.be/e9dZQelULDk">
+            <div class="thumbnail-div">
+                <img class="thumbnail-img" src="thumbnail/thumbnail-4.webp">
+                <div class="time-span">
+                    4:17
+                    </div>
+            </div>
+            <div class="video-info">
+                <div class="profile-div">
+                    <img class="profile-img" src="profile-img/channel-4.jpg">
+                </div>
+                <div class="description-div">
+                    <div class="title-div">
+                        <p class="title">Happiness</p>
+                    </div>
+                    <div class="author-div">
+                        <p class="author">Steve Cutts</p>
+                    </div>
+                    <div class="stats-div">
+                        <p class="stats">43M views · 5 years ago</p>
+                    </div>
+
+                </div>
+
+            </div>
+            </a>
+        </div>
+        <div class="video-preview">
+            <a href="https://youtu.be/DxL2HoqLbyA">
+            <div class="thumbnail-div">
+                <img class="thumbnail-img" src="thumbnail/thumbnail-5.webp">
+                <div class="time-span">
+                    27:15
+                    </div>
+            </div>
+            <div class="video-info">
+                <div class="profile-div">
+                    <img class="profile-img" src="profile-img/channel-5.jpg">
+                </div>
+                <div class="description-div">
+                    <div class="title-div">
+                        <p class="title">The Most Misunderstood Concept in Physics</p>
+                    </div>
+                    <div class="author-div">
+                        <p class="author">Veritasium</p>
+                    </div>
+                    <div class="stats-div">
+                        <p class="stats">4.9M views · 7 days ago</p>
+                    </div>
+
+                </div>
+            </div>
+        </a>
+        </div>
+        <div class="video-preview">
+            <a href="https://youtu.be/WrX2QVJ2c3Q">
+            <div class="thumbnail-div">
+                <img class="thumbnail-img" src="thumbnail/thumbnail-6.webp">
+                <div class="time-span">
+                    19:59
+                    </div>
+            </div>
+            <div class="video-info">
+                <div class="profile-div">
+                    <img class="profile-img" src="profile-img/channel-6.jpg">
+                </div>
+                <div class="description-div">
+                    <div class="title-div">
+                        <p class="title">How the CIA Found Osama bin Laden</p>
+                    </div>
+                    <div class="author-div">
+                        <p class="author">neo</p>
+                    </div>
+                    <div class="stats-div">
+                        <p class="stats">6.3M views · 5 months ago</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="video-preview">
+            <a href="https://youtu.be/7Hk9jct2ozY">
+            <div class="thumbnail-div">
+                <img class="thumbnail-img" src="thumbnail/thumbnail-7.webp">
+                <div class="time-span">
+                    7:20
+                    </div>
+            </div>
+            <div class="video-info">
+                <div class="profile-div">
+                    <img class="profile-img" src="profile-img/channel-7.jpg">
+                </div>
+                <div class="description-div">
+                    <div class="title-div">
+                        <p class="title">DNA animation (2002-2014) by Drew Berry and Etsuko Uno wehi.tv #ScienceArt</p>
+                    </div>
+                    <div class="author-div">
+                        <p class="author">WEHImovies</p>
+                    </div>
+                    <div class="stats-div">
+                        <p class="stats">4.8M views · 4 years ago</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="video-preview">
+            <a href="https://youtu.be/ZcqijvqDQaY">
+            <div class="thumbnail-div">
+                <img class="thumbnail-img" src="thumbnail/thumbnail-8.webp">
+                <div class="time-span">
+                    4:18
+                    </div>
+            </div>
+            <div class="video-info">
+                <div class="profile-div">
+                    <img class="profile-img" src="profile-img/channel-8.jpg">
+                </div>
+                <div class="description-div">
+                    <div class="title-div">
+                        <p class="title">Hyderabad's Falaknuma Palace | It Happens Only in India | National Geographic</p>
+                    </div>
+                    <div class="author-div">
+                        <p class="author">National Geographic India</p>
+                    </div>
+                    <div class="stats-div">
+                        <p class="stats">408K views · 1 month ago</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="video-preview">
+            <a href="https://youtu.be/DvNQwzzB8pg">
+            <div class="thumbnail-div">
+                <img class="thumbnail-img" src="thumbnail/thumbnail-9.webp">
+                <div class="time-span">
+                    2:40
+                    </div>
+            </div>
+            <div class="video-info">
+                <div class="profile-div">
+                    <img class="profile-img" src="profile-img/channel-9.jpg">
+                </div>
+                <div class="description-div">
+                    <div class="title-div">
+                        <p class="title">Heart of Stone | Gal Gadot, Alia Bhatt, Jamie Dornan | Official Trailer | Netflix India</p>
+                    </div>
+                    <div class="author-div">
+                        <p class="author">Netflix India</p>
+                    </div>
+                    <div class="stats-div">
+                        <p class="stats">13M views · 3 weeks ago</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+
+        
+        </div>
+</body>
+</html>

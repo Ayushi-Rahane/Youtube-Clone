@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Display Block an Inlone-Block</title>
+        <style>
+   .name,
+   .email{
+    display:block;
+    margin:6px;
+  
+   }
+
+   .b-text{
+    width:213px;
+    display:inline-block;
+    vertical-align:middle;
+   }
+   .yes,.no{
+    background-color:rgb(226, 225, 225);
+    border-width:thin;
+    
+   }
+
+   .googlelogo{
+      
+      height:82px;
+      width:222px;
+      object-position:center;
+      margin-left:222px;
+      margin-top:12px;
+      display:block;
+}
+   .google-search{
+    margin-top:12px;
+    margin-left:112px;
+    width:322px;
+    padding-left:14px;
+    padding-right:115px;
+    padding-top:6px;
+    padding-bottom:6px;
+    border:none;
+    border-radius:23px;
+    box-shadow:2px 2px 4px black;
+
+   }
+   .first,.second{
+    border-radius:7px;
+    border-style:solid;
+    border-width:thin;
+    padding-left:12px;
+    padding-right:3px;
+    padding-top:9px;
+    padding-bottom:9px;
+    width:110px;
+    margin-left:6px;
+    margin-bottom:6px;
+   }
+   .email{
+    border-radius:7px;
+    border-style:solid;
+    border-width:thin;
+    padding-left:12px;
+    padding-right:3px;
+    padding-top:9px;
+    padding-bottom:9px;
+    display:block;
+    width:247px;
+    margin-bottom:6px;
+   }
+   .signup{
+    background-color:rgb(21, 72, 242);
+    border:none;
+    border-radius:5px;
+    color:white;
+    font-weight:bold;
+    padding-left:99px;
+    padding-right:122px;
+    padding-top:8px;
+    padding-bottom:8px;
+    margin-left:6px;
+    margin-top:4px;
+    margin-bottom:29px;
+    cursor:pointer;
+
+   }
+   .uber-header{
+    font-family:arial;
+    font-weight:500;
+    font-size:24px;
+   }
+   .location, .destination{
+    border:none;
+    background-color:rgb(231, 230, 230);
+    padding-left:12px;
+    padding-right:112px;
+    padding-top:6px;
+    padding-bottom:6px;
+    display:block;
+    margin:5px;
+
+   }
+
+   .request{
+    margin-top:15px;
+    margin-right:10px;
+       background-color:black;
+       color:white;
+       padding-left:12px;
+       padding-right:12px;
+       padding-top:8px;
+       padding-bottom:8px;
+       border:none;
+       cursor:pointer;
+
+   }
+   .schedule{
+    border:none;
+    padding-left:12px;
+       padding-right:12px;
+       padding-top:8px;
+       padding-bottom:8px;
+       background-color:rgb(231, 230, 230);;
+       padding-bottom:5px;
+       cursor:pointer;
+    
+
+   }
+
+
+        </style>
+    </head>
+    <body>
+        <p>a. Create 2 text boxes and put them on separate lines (using display:block )</p>
+
+        <input class="name" type="text" placeholder="Name">
+        <input class="email" type="text" placeholder="Email">
+
+        <br>
+        <p> b. Create a paragraph and 2 buttons and place them on the same line (Using width, display:inine-block and vertical-align:middle)</p>
+           
+        <p class="b-text">Thanks for chatting with our customer support. Would you like to take our quick survey?</p>   
+       <button class="yes">
+        Yes
+       </button>
+       <button class="no">
+        No
+       </button>
+
+       <br>
+       <p>c. create google.com search form</p>
+       <img src="googlelogo.jpg" class="googlelogo">
+
+       <input class="google-search" type="text" placeholder="Search Google or type a URL">
+        <br>
+       <p>d. Sign up Form</p>
+
+       <input class="first" type="text" placeholder="First name">
+       <input class="second" type="text" placeholder="Second name">
+       <input class="email" type="text" placeholder="Email">
+   
+       <button class="signup">
+        Sign Up
+       </button> 
+          
+       <p>e. Uber request-a-ride form</p>
+
+       <p class="uber-header">Request a ride now</p>
+       <input class="location" type="text" placeholder="Enter pickup location">
+       <input class="destination" type="text" placeholder="Enter destination">
+
+       <button class="request">
+        Request now
+       </button>
+       <button class="schedule">
+        Schedule for later
+       </button>
+
+    </body>
+</html>

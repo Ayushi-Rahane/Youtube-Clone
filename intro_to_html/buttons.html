@@ -1,0 +1,152 @@
+<style> 
+    .subscribe{
+        background-color: rgb(182, 9, 9); /* this command is to change background color*/  
+        color: white; /* thiscommand is to change TEXTcolor*/
+        border: none; /*for setting border such as removinf border*/
+        /*height: 35px; 
+        width: 100px;*/
+        border-radius: 02px; /*it is used to makr rounded corners and higher the oixel the morder rounded corners will.*/
+        cursor:pointer;
+        margin-right: 8px;
+        margin-bottom:25px;
+        transition:opacity 1s;
+        /*this transition take 2 value: 1st take is on what we want to do transition and and 2nd value tke as a time as what how muh time we want to play this transition*/
+        vertical-align:top;  /*It is used to align the butto to the top insted of there text.*/
+        padding-right:16px;
+        padding-left:16px;
+        padding-top:10px;
+        padding-bottom:10px;
+          }
+          .subscribe:hover{
+            /*background-color:rgb(250, 23, 23);*/  /*This is one way to fade a color*/
+            opacity:0.1; /*This is another way to fade the color of button after hovering it. when it's value is set to 1 it means it is completely normal but whehn it's value is 0 or less than 0 like 0.1,0.2,0.5 then the color gets light of botton. When we set it's value to the 0 the button gets completely transparent.*/
+            
+          }
+          .subscribe:active{
+            /*This psuedo class is used to show some action on button after clicking...*/
+            /* first way..
+            background-color:white;
+            color:rgb(182, 9, 9);
+            border-color:rgb(182, 9, 9);
+            border-style:solid;
+            border-width:1px;
+          */
+          /*Second way to do this using opacity*/
+          opacity:0.2;  
+          }
+     .join{
+        background-color: #ffffff;
+        color:#065fd4;
+        border-color: #065fd4;
+        border-style:solid; /* to make all borer color same*/
+        border-width: 1px;
+        /*height: 35px;
+        width: 60px;*/
+         /*Insted of using height and weight we can use padding*/
+         /*Padding: it is used to give space inside the element*/
+         /*As we know that Margin is used to give space outside of element here padding is used to gie space outside of element*/
+         /*Just like margin we can set padding all 4 directionso*/
+         padding-right:16px;
+        padding-left:16px;
+        padding-top:10px;
+        padding-bottom:8px;  /*know here just uding padding insted of paddinf-left or paddinf-right etc the space gets on al side of elment*/
+         /*noweven if we change the text inside of element unlike hight and weight the padding will get adjust with that tex-t.*/
+         vertical-align:top;  
+        border-radius: 2px;
+        cursor:pointer;
+        margin-right:8px; /*Spcasing between buttons. Remember space = margin is html*/
+        transition: background-color 1s, color 1s;
+     }     
+     .join:hover{
+        color:white;
+        background-color:#065fd4;
+
+     }
+     .join:active{
+        opacity:0.2;
+     }
+     .Tweet {
+         background-color:rgb(6, 153, 227);
+         color:White;
+         border:none;
+         border-radius:50px;
+         
+         /*height:30px;
+         width: 68px;*/
+         padding-top:8px;
+         padding-bottom:9px;
+         padding-right:17px;
+         padding-left:17px;
+         cursor:pointer;
+         font-weight:bold;
+         font-size:14px;
+         margin-right:300px;
+         transition:box-shadow 1s;
+         vertical-align:top;  
+     }
+     .tweet:hover{
+        box-shadow:5px 5px 10px rgba(0,0,0, 0.6);
+        /*Now here 1st value = bottom shadow
+          2nd value = right side shadow and 3rd value= blurness and 4th is color*/
+          /*Here ein 4th value we used rgba which is pretty much similar to rgb and search on google for a value.xD*/
+
+     }
+     .tweet:active{
+        opacity:0.3;
+     }
+     .uber{
+        background-color:black;
+        color:white;
+        height: 30px;
+        width:90px;
+        font-size:10px;
+        border:none;
+        margin-right:13px;  
+        cursor:pointer;
+     }
+
+     .amazon{
+        background-color:rgb(255,216,20);
+        border:none;
+        border-radius: 21px;
+        height:25px;
+        width:140px;
+        cursor:pointer;
+        margin-right:13px;
+     }
+     .GitHub{
+        background-color:rgb(46,164,79);
+        border-radius:4px;
+        color:white;
+        font-weight:bold;
+        border:none;
+        height:30px;
+        width:89px;
+        cursor:pointer;
+
+     }
+</style>
+<p> Assignment 1</p>
+    <button class="Subscribe">
+        SUBSCRIBE
+    </button>
+
+    <button class="join"> JOIN  </button> 
+    <button class="Tweet">
+        Tweet
+    </button>
+<p>Assignment 2</p>
+    <button class="uber">
+        Request now
+    </button>
+
+    <button class="amazon">
+        Add to Cart
+    </button>
+
+    <button class="GitHub">
+       Sign up
+    </button>
+ 
+    
+

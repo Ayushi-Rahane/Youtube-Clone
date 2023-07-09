@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nested Layout Technique</title>
+        <style>
+            p{
+                margin-top:0px;
+                margin-bottom:0px;
+                font-family:arial;
+            }
+            .frnd-page{
+                box-shadow: 2px 2px 6px rgb(91, 90, 90);
+                display:inline-block;
+                margin-top:30px;
+                margin-left:20px;
+            }
+            .profile-img{
+                width:150px;
+                height:200px;
+                object-position:center;
+                object-fit:cover;
+            }
+            .name{
+                font-weight:bold;
+                margin-left:6px;
+
+            }
+            .frnd-img-div{
+                display:inline-block;
+            }
+            .frnd-img{
+                margin-top:2px;
+                margin-left:6px;
+                width:30px;
+                height:30px;
+                border-radius:15px;
+                vertical-align:top;
+            }
+            .mutual-div{
+                display:inline-block;
+                vertical-align:top;
+            }
+            .mutual{
+                margin-top:8px;
+                font-size:13px;
+                margin-left:5px;
+                color:#606060;
+            }
+            .add-frnd{
+                margin-left:6px;
+                margin-bottom:6px;
+                background-color:rgb(41, 52, 173);
+                border:none;
+                color:white;
+                border-radius:2px;
+                margin-top:8px;
+                padding-top:6px;
+                padding-bottom:6px;
+                padding-left:15px;
+                padding-right:15px;
+
+
+            }
+        </style>    
+    </head>
+    <body>
+        <div class="frnd-page">
+            <div class="profie-img-div">
+                <img class="profile-img" src="oliver.jpg">
+            </div>
+
+            <div class="name-div">
+                <p class="name">Oliver</p>
+            </div>
+
+            <div class="relation-div">
+                <div class="frnd-img-div">
+                <img class="frnd-img" src="OIP.jpg">
+            </div>
+            <div class="mutual-div">
+            <p class="mutual">2 mutual friends</p>
+        </div>
+            </div>
+
+            <div class="button-div">
+                <button class="add-frnd">Add Friend</button>
+            </div>
+        </div>
+        
+        <div class="frnd-page">
+            <div class="profie-img-div">
+                <img class="profile-img" src="OIP.jpg">
+            </div>
+
+            <div class="name-div">
+                <p class="name">Mimi</p>
+            </div>
+
+            <div class="relation-div">
+                <div class="frnd-img-div">
+                <img class="frnd-img" src="oliver.jpg">
+            </div>
+            <div class="mutual-div">
+            <p class="mutual">3 mutual friends</p>
+        </div>
+            </div>
+
+            <div class="button-div">
+                <button class="add-frnd">Add Friend</button>
+            </div>
+        </div>
+        
+        <div class="frnd-page">
+            <div class="profie-img-div">
+                <img class="profile-img" src="oliver.jpg">
+            </div>
+
+            <div class="name-div">
+                <p class="name">Oliver</p>
+            </div>
+
+            <div class="relation-div">
+                <div class="frnd-img-div">
+                <img class="frnd-img" src="OIP.jpg">
+            </div>
+            <div class="mutual-div">
+            <p class="mutual">2 mutual friends</p>
+        </div>
+            </div>
+
+            <div class="button-div">
+                <button class="add-frnd">Add Friend</button>
+            </div>
+        </div>
+
+    </body>
+</html>

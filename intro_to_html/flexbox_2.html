@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title> Flexbox practice</title>
+<style>
+    p{
+        font-family:arial;
+        margin:0px;
+    }
+    .hnm{
+        border-style:solid;
+        border-color:gray;
+        border-width:1px;
+        width:250px;
+        border-radius:3px;
+        padding-right:12px;
+        padding-bottom:5px;
+    }
+    .home{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+    }
+    .text{
+
+        padding-left:9px;
+        margin-top:8px;
+        margin-bottom:0px;
+
+    }
+
+    .no{
+        margin-top:8px;
+        margin-bottom:0px;
+        padding-right:8px;
+        background-color:rgb(71, 71, 180);
+        color:white;
+        border-radius:22px;
+        padding-top:2px;
+        padding-bottom:2px;
+        padding-right:11px;
+        padding-left:11px;
+
+
+    }
+
+    
+    .follow{
+        margin-top:20px;
+        display:flex;
+        flex-direction:row;
+        width:320px;
+      
+    }
+
+    img{
+        width:35px;
+        height:35px;
+        border-radius:20px;
+        margin-left:12px;
+        margin-top:9px;
+    }
+    .info{
+        margin-left:9px;
+        margin-top:8px;
+    }
+    .name{
+        font-weight:bold;
+        margin-top:2px;
+        font-size:12px;
+    }
+    .subname, .state{
+        font-size:12px;
+        color:gray;
+    }
+    .follow-btn-div{
+        display:flex;
+        justify-content:right;
+        flex:1;
+        align-items:center;
+    }
+
+    .follow-btn{
+       
+        margin-right:1px;
+   
+        color:white;
+        background-color:rgb(100, 100, 214);
+        border:none;
+        border-radius:      2px;
+    }
+    
+    .purple-div{
+        margin-top:52px;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        background-color:purple;
+        height:38px;
+        border-radius:2px;
+    }
+    .home-text{
+        color:white;
+        font-size:12px;
+        font-weight:bold;
+        margin-left:8px;
+    }
+    .home-text-div{
+        width:100px;;
+    }
+    .search-div{
+    
+        margin-right:89px;
+        margin-left:35px;
+    }
+    .btn-div{
+        width:150px;
+    }
+    .search{
+        flex:1;
+        border-radius:32px;
+        border:none;
+        padding-top:4px;
+        padding-bottom:4px;
+        padding-right:2px;
+        padding-left:12px;
+
+    }
+
+    .download-btn{
+        background-color:purple;
+        color:white;
+        border-style:solid;
+        border-color:white;
+        border-width:thin;
+        border-radius:2px;
+        margin-right:8px;
+        padding-top:5px;
+        padding-bottom:5px;
+        padding-left:6px;
+        padding-right:6px;
+    }
+
+
+
+</style>    
+</head>
+
+
+    <body>
+
+  <div class="hnm">
+    <div class="home">
+    <div class="text-div">
+  <p class="text">Home</p>
+    </div>
+
+    <div class="no-div">
+<p class="no">14</p>
+    </div>
+</div>
+
+<div class="home">
+    <div class="text-div">
+  <p class="text">Notification</p>
+    </div>
+
+    <div class="no-div">
+<p class="no">3</p>
+    </div>
+</div>
+
+<div class="home">
+    <div class="text-div">
+  <p class="text">Message</p>
+    </div>
+
+    <div class="no-div">
+<p class="no">5</p>
+    </div>
+</div>
+  
+  </div>
+
+  <div class="follow-page">
+    <div class="follow">
+   <div>
+    <img class="img" src="mimi.webp">
+   </div>
+
+   <div class="info">
+    <div>
+        <p class="name">Oliver</p> 
+    </div>
+    <div>
+        <p class="subname">the cat</p>
+    </div>
+    <div>
+        <p class="state">Popular</p>
+    </div>
+
+    </div>
+
+   <div class="follow-btn-div">
+    <button class="follow-btn">Follow</button>
+   </div>
+    
+</div>
+
+<div class="follow">
+    <div>
+     <img class="img" src="oliver.jpg">
+    </div>
+ 
+    <div class="info">
+     <div>
+         <p class="name">Mimi</p> 
+     </div>
+     <div>
+         <p class="subname">Sleepy cat</p>
+     </div>
+     <div>
+         <p class="state">Popular</p>
+     </div>
+ 
+     </div>
+ 
+    <div class="follow-btn-div">
+     <button class="follow-btn">Follow</button>
+    </div>
+     
+ </div>
+ <div class="follow">
+     <div>
+      <img class="img" src="OIP.jpg">
+     </div>
+  
+     <div class="info">
+      <div>
+          <p class="name">Rex</p> 
+      </div>
+      <div>
+          <p class="subname">Happy Buildog</p>
+      </div>
+      <div>
+          <p class="state">Popular</p>
+      </div>
+  
+      </div>
+  
+     <div class="follow-btn-div">
+      <button class="follow-btn">Follow</button>
+     </div>
+      
+  </div>
+
+  <div class="purple-div">
+    <div class="home-text-div">
+        <p class="home-text">Home</p>
+    </div>
+    <div class="search-div">
+        <input class="search" type="text" placeholder="Search">
+    </div>
+    <div class="btn-div"> 
+        <button class="download-btn">Download</button>
+    </div>
+
+  </div>
+  </div>
+
+  
+    </body>
+</html>
